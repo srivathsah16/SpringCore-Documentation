@@ -15,7 +15,8 @@ Spring framework makes development of JavaEE applications easy. Developed by **R
 
 Dependency in programming is an approach where a class uses specific functionalities of another class. So, for example, If you consider two classes A and B, and say that class A uses functionalities of class B, then its implied that class A has a dependency of class B. Now, if you are coding in Java then you must know that, you have to create an instance of class B before the objects are being used by class A.
 
-![Dependency Injection](Images/Screenshot%202023-05-22%20184936.png)
+<img src="Images/Screenshot%202023-05-22%20184936.png" width="600" height="400">
+
 > **Dependency Injection** is a fundamental aspect of the Spring framework, through which the Spring container “injects” objects into other objects or “dependencies”
 <br/>
 <br>
@@ -28,14 +29,14 @@ Dependency in programming is an approach where a class uses specific functionali
 * So, instead of ***we*** creating the objects with **new** keyword, we will let ***SPRING*** do this magic : It creates the objects of the dependencies and injects it in the required classes.
 * Since there is an inversion of control over the object creation and maintainance, this is termed as ***INVERSION OF CONTROL***
 
-![Tight Coupling](Images/Screenshot%202023-05-22%20185810.png)
+<img src="Images/Screenshot%202023-05-22%20185810.png" width="600" height="400">
 
 >**Inversion of Control** is a principle in software engineering which transfers the control of objects or portions of a program to a container or framework.
 <br>
 So Spring-Core module is responsible for injecting these dependencies
 Spring IOC resolves such dependencies with Dependency Injection, which makes the code easier to test and reuse.
 
-![DI across various layers](Images/Screenshot%202023-05-22%20002531.png)
+<img src="Images/Screenshot%202023-05-22%20002531.png" width="600" height="400">
 
 <br>
 
@@ -43,9 +44,9 @@ Spring IOC resolves such dependencies with Dependency Injection, which makes the
 
 [*Spring Modules : Spring Official Docs*](https://docs.spring.io/spring-framework/docs/3.0.0.M4/reference/html/ch01s02.html)
 
-![Spring Modules](Images/Screenshot%202023-05-22%20195740.png)
+<img src="Images/Screenshot%202023-05-22%20195740.png" width="600" height="400">
 
-![Modules](Images/Screenshot%202023-05-23%20215517.png)
+<img src="Images/Screenshot%202023-05-23%20215517.png" width="600" height="400">
 
 1. The **Core Container** consists of the Core, Beans, Context and Expression modules.
     * The ***Core and Beans modules*** provide the most fundamental parts of the framework and provides the ***IoC and Dependency Injection features***.
